@@ -1,13 +1,14 @@
-body{
-	margin:0;
-	padding:0;
-}
-div{
-	background-color:lightblue;
-	border:2px solid black;
-	height:200px;
+.main{
 	width:200px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+	background-color:purple;
+	/* border-left-color:green; */
+	border-left:5px solid green;
+	/* border-left-style: solid; */
+	/* border-left-width: 5px; */
+	padding:10px;
+}
+.heading{
+	font-size:20px;
+	color:white;
+	text-decoration:underline;
 }
